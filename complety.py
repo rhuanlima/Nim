@@ -70,8 +70,8 @@ def main():#function main
         selecionador=int(input("Insira o Modo Desejado:"))#selecionando o Modo#
     if selecionador ==1:#Selecionar-Partida#
         print("Voce escolheu uma partida apenas!")
-        print(partida()) # Chamando a Function "Partida"#
+        partida() # Chamando a Function "Partida"#
     elif selecionador ==2:#Selecionar-Campeonato#
         print("Voce escolheu um campeonato!")
-        print(campeonato()) #Chamando a Function "Campeonato"#
+        campeonato() #Chamando a Function "Campeonato"#
 main()#Iniciando Game(Main)#
